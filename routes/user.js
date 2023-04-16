@@ -15,7 +15,7 @@ router.get("/userid/:id", getUserDetails);
 router.put("/userid/:id", updateUser);
 router.delete("/userid/:id", deleteUser);
 */
-//same as the above
+//same as the above 
 router.route("/userid/:id")
     .get(getUserDetails).
     put(updateUser)
